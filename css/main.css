@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+/* Large background image */
 html {
   background-color: #fff;
   height: 100%;
@@ -109,9 +109,9 @@ body {
 }
 
 .wrapper {
-  /*add display:flex and set justify-content to space-between*/
+  align-items: center;
   display: flex;
-  font-weight: 700;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
